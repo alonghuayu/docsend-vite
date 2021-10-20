@@ -14,9 +14,17 @@
       "esnext",
       "dom"
     ],
+    "types": [
+      "node",
+      "webpack-env"
+    ],
     "paths": {
-      "@/*": ["src/*"],
-      "/#/*": ["types/*"]
+      "@/*": [
+        "src/*"
+      ],
+      "/#/*": [
+        "types/*"
+      ]
     }
   },
   "include": [

@@ -1,3 +1,9 @@
+/*
+ * @Author: withering 
+ * @Date: 2021-10-20 18:13:01 
+ * @Last Modified by:   withering 
+ * @Last Modified time: 2021-10-20 18:13:01 
+ */
 import type { RouteRecordRaw, RouteMeta } from 'vue-router';
 import { RoleEnum } from '@/enums/roleEnum';
 import { defineComponent } from 'vue';

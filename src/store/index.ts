@@ -1,21 +1,21 @@
-import { createStore } from 'vuex'
+/*
+ * @Author: withering 
+ * @Date: 2021-10-20 18:14:42 
+ * @Last Modified by: withering
+ * @Last Modified time: 2021-10-20 18:46:24
+ */
 
-//定义一个state的接口
-export interface State {
-  count: number
-}
+import { createStore, createLogger } from 'vuex';
+import modules from '@/store/modules'
+import { DStore } from './types'
 
-const store = createStore<State>({
-  state() {
-    return {
-      count: 0
-    }
-  },
-  mutations: {
-    // 累加功能
-    increment(state) {
-      state.count++
-    }
-  }
+const debug = process.env.NODE_ENV !== 'production';
+
+const plugins = debug ? [createLogger()] : [];
+
+const store = createStore<DStore>({
+  plugins,
+  modules
 })
-export default store
+
+export default store;

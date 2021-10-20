@@ -1,14 +1,19 @@
-import { MenuTypeEnum, MenuModeEnum, TriggerEnum, MixSidebarTriggerEnum } from '@/enums/menuEnum';
+/*
+ * @Author: withering 
+ * @Date: 2021-10-20 18:14:00 
+ * @Last Modified by:   withering 
+ * @Last Modified time: 2021-10-20 18:14:00 
+ */
 import {
   ContentEnum,
   PermissionModeEnum,
-  ThemeEnum,
   RouterTransitionEnum,
-  SettingButtonPositionEnum,
   SessionTimeoutProcessingEnum,
+  SettingButtonPositionEnum,
+  ThemeEnum,
 } from '@/enums/appEnum';
-
 import { CacheTypeEnum } from '@/enums/cacheEnum';
+import { MenuModeEnum, MenuTypeEnum, MixSidebarTriggerEnum, TriggerEnum } from '@/enums/menuEnum';
 
 export type LocaleType = 'zh_CN' | 'en' | 'ru' | 'ja' | 'ko';
 

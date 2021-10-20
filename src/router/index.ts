@@ -1,3 +1,9 @@
+/*
+ * @Author: withering 
+ * @Date: 2021-10-20 18:12:58 
+ * @Last Modified by:   withering 
+ * @Last Modified time: 2021-10-20 18:12:58 
+ */
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 
 import { basicRoutes } from '@/router/basic/index'
@@ -11,11 +17,12 @@ const getRouteNames = (array: any[]) =>
   });
 getRouteNames(basicRoutes);
 
+
 // app router
 export const router = createRouter({
   history: createWebHistory(),
   routes: basicRoutes as unknown as RouteRecordRaw[],
-  strict: true,
+  strict: process.env.NODE_ENV !== 'production',
   scrollBehavior: () => ({ left: 0, top: 0 }),
 });
 

@@ -1,3 +1,9 @@
+/*
+ * @Author: withering 
+ * @Date: 2021-10-20 18:14:17 
+ * @Last Modified by:   withering 
+ * @Last Modified time: 2021-10-20 18:14:17 
+ */
 import { ErrorTypeEnum } from '@/enums/exceptionEnum';
 import { MenuModeEnum, MenuTypeEnum } from '@/enums/menuEnum';
 import { RoleInfo } from '@/api/sys/model/userModel';

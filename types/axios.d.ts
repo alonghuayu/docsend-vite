@@ -1,3 +1,9 @@
+/*
+ * @Author: withering 
+ * @Date: 2021-10-20 18:13:55 
+ * @Last Modified by:   withering 
+ * @Last Modified time: 2021-10-20 18:13:55 
+ */
 export type ErrorMessageMode = 'none' | 'modal' | 'message' | undefined;
 
 export interface RequestOptions {
