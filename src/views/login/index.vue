@@ -1,6 +1,5 @@
 <template>
   <div>
-    login
     <el-button type="primary" @click="handleClickIncrement">累加</el-button>
     <router-link to="/">去首页</router-link>
   </div>
