@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "axios": "^0.22.0",
+    "crypto-js": "^4.1.1",
     "element-plus": "^1.1.0-beta.20",
     "vue": "^3.2.16",
     "vue-i18n": "^9.2.0-beta.13",
@@ -14,6 +15,7 @@
     "vuex": "^4.0.2"
   },
   "devDependencies": {
+    "@types/crypto-js": "^4.0.2",
     "@types/node": "^16.11.1",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",

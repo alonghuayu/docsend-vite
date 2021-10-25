@@ -1,3 +1,9 @@
+/*
+ * @Author: withering 
+ * @Date: 2021-10-25 09:21:13 
+ * @Last Modified by:   withering 
+ * @Last Modified time: 2021-10-25 09:21:13 
+ */
 /**
  * @description 获取用户浏览器版本及系统信息
  * @param {string='zh-cn' | 'en'} lang 返回中文的信息还是英文的

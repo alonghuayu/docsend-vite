@@ -1,3 +1,9 @@
+/*
+ * @Author: withering 
+ * @Date: 2021-10-25 09:21:20 
+ * @Last Modified by:   withering 
+ * @Last Modified time: 2021-10-25 09:21:20 
+ */
 const toString = Object.prototype.toString;
 
 /**
